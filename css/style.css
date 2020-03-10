@@ -1,0 +1,159 @@
+html {
+    margin-left: calc(100vw - 100%);
+}
+
+body {
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-weight: normal;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header,
+.content,
+.congratulations,
+.results__graph,
+.participants {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer,
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.header__image {
+    width: 80px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.header__title {
+    width: 60%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.navigation {
+    margin-top: 20px;
+}
+
+.navigation__item {
+    cursor: pointer;
+    color: #000;
+    background: rgba(0,0,0,.05);
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navigation__item:hover {
+    background: rgba(0,0,0,.09);
+}
+
+.navigation__item_selected {
+    color: #fff;
+    background: #4149f0;
+    pointer-events: none;
+    cursor: text;
+}
+
+.navigation__item_selected:hover {
+    background: #4149f0;
+}
+
+.content {
+    margin: 30px 0 60px 0;
+}
+
+.participants {
+    margin: 30px 0 30px 0;
+}
+
+.content__text, .participants__table {
+    margin-top: 30px;
+    width: 60%;
+    font-size: 18px;
+}
+
+.footer {
+    margin-top: auto;
+    margin-bottom: 80px;
+}
+
+.link:link {
+    color: #4149f0;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(65, 73, 242, 0.3);
+    -webkit-transition: color .3s ease,border-color .3s ease;
+    transition: color .3s ease,border-color .3s ease;
+}
+
+.link:visited {
+    color: #b40eb4;
+    border-color: rgba(180,14,180,.3);
+}
+
+.person__notice {
+    margin-top: 30px;
+}
+
+.person__list {
+    margin-bottom: -30px;
+}
+
+.person {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.person__text,
+.congratulations__paragraph,
+.results__paragraph {
+    width: 60%;
+    font-size: 18px;
+}
+
+.person__name {
+    flex: 1 0 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-right: 30px;
+}
+
+.person__resume {
+    flex: 2 1 600px;
+}
+.name__title {
+    color: #9B9B9B;
+}
+
+.congratulations {
+    margin-top: 60px;
+    font-size: 18px;
+}
+
+.participants__table {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.graph__wrapper {
+    width: 60%;
+    margin: 40px 0;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.text_left {
+    text-align: left;
+}

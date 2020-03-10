@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results - Algorithmus</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/flag-icon.css">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded:300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="header">
+    <a href="index.html"><img src="./img/logo.png" alt="Logo" class="header__image"></a>
+    <div class="header__title">
+        <h1>The algorithm experts programming contest «Algorithmus»</h1>
+    </div>
+</div>
+<div class="navigation">
+    <a href="index.html" class="navigation__item">Main</a>
+    <a href="rules.html" class="navigation__item">Rules and Regulations</a>
+    <a href="judges.html" class="navigation__item">Jury of Experts</a>
+    <a href="results.html" class="navigation__item navigation__item_selected">Leaderboard</a>
+</div>
+<div class="congratulations">
+    <p class="congratulations__paragraph text_center">The judges recognize the results of <b>Andrey Kudryavtsev</b> as the most effective and sufficient, in compliance with all the requirements of the contest. Below you can find the results of all contestants.</p>
+</div>
+<div class="participants">
+    <table class="participants__table">
+        <thead>
+        <tr>
+            <th>Place</th>
+            <th>Participant</th>
+            <th>Country</th>
+            <th>Title</th>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+            <th>D</th>
+            <th>E</th>
+            <th>F</th>
+            <th>G</th>
+            <th>H</th>
+            <th>Score</th>
+        </tr>
+        </thead>
+        <tbody class="participants__tbody text_center">
+        </tbody>
+    </table>
+</div>
+<div class="results__graph">
+    <p class="results__paragraph text_center"><b>Percentile of solutions to each tasks for all participants</b></p>
+    <div class="graph__wrapper">
+        <canvas id="aTask"></canvas>
+    </div>
+    <div class="graph__wrapper">
+        <canvas id="bTask"></canvas>
+    </div>
+    <div class="graph__wrapper">
+        <canvas id="cTask"></canvas>
+    </div>
+    <div class="graph__wrapper">
+        <canvas id="dTask"></canvas>
+    </div>
+    <div class="graph__wrapper">
+        <canvas id="eTask"></canvas>
+    </div>
+    <div class="graph__wrapper">
+        <canvas id="fTask"></canvas>
+    </div>
+    <div class="graph__wrapper">
+        <canvas id="gTask"></canvas>
+    </div>
+    <div class="graph__wrapper">
+        <canvas id="hTask"></canvas>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer__copyright">
+        <span>© 2019 Copyright <a href="index.html" class="link">Algorithmus</a></span>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="js/chart.js"></script>
+<script type="text/javascript" src="js/participants.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</html>
